@@ -3,4 +3,4 @@ before_install:
   - ./.travis.install.sh
   - ./.travis.gopacket_pfring.sh
 script:
-  - sudo go run main.go
+  - ./.travis.test.sh
